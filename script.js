@@ -15,7 +15,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
         document.querySelector('#current-'+ activeplayer).textContent = roundScore;
         
     } else{
-        shiftPlayer()
+        shiftPlayer()   
     }
 
     }
